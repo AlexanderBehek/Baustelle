@@ -15,7 +15,6 @@ public class Main {
         Bauarbeiter hans = new Bauarbeiter("Hans", Arrays.asList(new Kran(), new Bagger()));
         hans.arbeite();
 
-
         Bauarbeiter peter = new Bauarbeiter("Peter", Arrays.asList(new Bagger()));
         peter.arbeite();
     }
